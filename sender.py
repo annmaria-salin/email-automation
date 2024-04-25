@@ -32,7 +32,7 @@ class NewsFeed():
         return articles
 
     def get(self):
-        url = self._biuld_url()
+        url = self._build_url()
         articles = self._get_articles(url)
         
         email_body = ''

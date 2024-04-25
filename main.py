@@ -27,7 +27,7 @@ while True:
     if datetime.datetime.now().hour == 15 and datetime.datetime.now().minute == 39:
         df = pandas.read_excel('people.xlsx')
         for index, rows in df.iterrows():
-            send_email
+            send_email()
 
     time.sleep(10)
 
